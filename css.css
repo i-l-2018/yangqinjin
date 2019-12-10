@@ -93,3 +93,21 @@
   .active{
   	background-color: red;
   }
+  #left{
+    top: 7px;
+    border:solid;
+    position: fixed;
+    left: 0px;
+    width: 2px;
+    height: 423px;
+    background-color: black;
+  }
+  #right{
+     top: 7px;
+    border:solid;
+    position: fixed;
+    right: 0px;
+    width: 2px;
+    height: 423px;
+    background-color: black;
+  }
