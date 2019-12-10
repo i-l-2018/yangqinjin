@@ -1,61 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-  
-   <link rel="stylesheet" type="text/css" href="css.css">
-
-</head>
-<body>
-	<div class="head">
-		<img src="images/a15.png">
-		<div class="box">
-		     <p id="p">[温馨提示！]最近有不少人在网上骗人，请大家注意！！！</p>
-	    </div>
-	</div>
-	<div class="zhongjian">
-		
-			<div class="slider" id="slider">
-				<div class="slide" >
-		            <img src="images/b5.png">
-		        </div>
-			     <div class="slide">
-			        <img src="images/b1.png">
-			    </div>
-			    <div class="slide">
-			        <img src="images/b2.png">
-			    </div>
-			    <div class="slide">
-			        <img src="images/b3.png">
-			    </div>
-			    <div class="slide">
-			        <img src="images/b4.png">
-			    </div>
-			    <div class="slide">
-			        <img src="images/b5.png">
-			    </div>
-			    <div class="slide">
-			        <img src="images/b1.png">
-			    </div>
-		    </div>
-
-		<ul>
-			<li class="active">1</li>
-			<li>2</li>
-			<li>3</li>
-			<li>4</li>
-			<li>5</li>
-		</ul>
-		<div class="zuo">
-			<
-		</div>
-		<div class="you">
-			>
-
-		</div>
-	</div>    
-    <script type="text/javascript" >
-	var button=document.getElementsByTagName("li");
+var button=document.getElementsByTagName("li");
 	    var index = 1;
 	    var slider=document.getElementsByClassName("slider")[0];
     	var zhongjian=document.getElementsByClassName("zhongjian")[0];
@@ -197,7 +140,3 @@
 	    	turnRed();
 	    }
     
-    
-    </script>
-</body>
-</html>
